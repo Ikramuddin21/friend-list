@@ -1,0 +1,9 @@
+.friend-container{
+    display: flex;
+    margin-top: 60px;
+}
+.list-container{
+    width: 55%;
+    margin-left: 10%;
+    border-right: 1px solid lightgray;
+}
