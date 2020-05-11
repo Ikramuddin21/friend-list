@@ -10,8 +10,14 @@ const Friend = () => {
   const [cart, setCart] = useState([]);
 
   const handleAddFriend = (user) => {
-    const newCart = [...cart, user];
-    setCart(newCart);
+    const addedEmail = user.email;
+    const sameEmail =cart.find(usr => usr.email === addedEmail);
+    // console.log(sameEmail);
+    if(sameEmail === undefined){
+      const newCart = [...cart, user];
+      // console.log/(newCart);
+     setCart(newCart);
+    } 
   }
 
   

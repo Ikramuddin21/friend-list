@@ -6,7 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const List = (props) => {
     const {name, email, phone, salary, img} = props.user;
-    console.log(props.user);
+    //console.log(props.user);
     return (
         <div className="list">
             <div>

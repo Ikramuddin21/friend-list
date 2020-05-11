@@ -12,10 +12,6 @@
     margin-top: 5px;
     margin-left: 5px;
 }
-.list img:hover{
-    width: 325px;
-    height: 310px;
-}
 .list-text{
     text-align: center;
     width: 250px;
